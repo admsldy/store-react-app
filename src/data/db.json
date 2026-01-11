@@ -1,0 +1,61 @@
+[
+  { "id": "1", "name": "Modern Wooden Chair", "description": "A comfortable modern chair made from natural wood.", "price": 120, "image": "https://picsum.photos/300/300?random=1", "category": "furniture" },
+  { "id": "2", "name": "Minimalist Sofa", "description": "A stylish sofa perfect for modern living rooms.", "price": 450, "image": "https://picsum.photos/300/300?random=2", "category": "furniture" },
+  { "id": "3", "name": "Glass Coffee Table", "description": "Elegant coffee table with a tempered glass top.", "price": 220, "image": "https://picsum.photos/300/300?random=3", "category": "furniture" },
+  { "id": "4", "name": "Wooden Bookshelf", "description": "Spacious bookshelf for books and decor items.", "price": 310, "image": "https://picsum.photos/300/300?random=4", "category": "furniture" },
+  { "id": "5", "name": "Bedside Table", "description": "Compact bedside table with storage drawer.", "price": 95, "image": "https://picsum.photos/300/300?random=5", "category": "furniture" },
+
+  { "id": "6", "name": "Table Lamp", "description": "Classic table lamp with warm ambient light.", "price": 60, "image": "https://picsum.photos/300/300?random=6", "category": "lamps" },
+  { "id": "7", "name": "Floor Lamp", "description": "Tall floor lamp ideal for reading corners.", "price": 130, "image": "https://picsum.photos/300/300?random=7", "category": "lamps" },
+  { "id": "8", "name": "Pendant Light", "description": "Modern pendant light for kitchen or dining room.", "price": 150, "image": "https://picsum.photos/300/300?random=8", "category": "lamps" },
+  { "id": "9", "name": "Desk Lamp", "description": "Adjustable desk lamp for workspace lighting.", "price": 55, "image": "https://picsum.photos/300/300?random=9", "category": "lamps" },
+  { "id": "10", "name": "Wall Lamp", "description": "Minimal wall-mounted lamp with soft light.", "price": 75, "image": "https://picsum.photos/300/300?random=10", "category": "lamps" },
+
+  { "id": "11", "name": "Decorative Vase", "description": "Ceramic vase for flowers or interior decor.", "price": 40, "image": "https://picsum.photos/300/300?random=11", "category": "decor" },
+  { "id": "12", "name": "Wall Art Print", "description": "Abstract wall art for modern interiors.", "price": 85, "image": "https://picsum.photos/300/300?random=12", "category": "decor" },
+  { "id": "13", "name": "Decorative Mirror", "description": "Round mirror with minimalist frame.", "price": 140, "image": "https://picsum.photos/300/300?random=13", "category": "decor" },
+  { "id": "14", "name": "Indoor Plant Pot", "description": "Stylish pot suitable for indoor plants.", "price": 35, "image": "https://picsum.photos/300/300?random=14", "category": "decor" },
+  { "id": "15", "name": "Scented Candle", "description": "Aromatic candle for cozy home atmosphere.", "price": 25, "image": "https://picsum.photos/300/300?random=15", "category": "decor" },
+
+  { "id": "16", "name": "Ceramic Dinner Plate", "description": "Durable ceramic plate for everyday meals.", "price": 18, "image": "https://picsum.photos/300/300?random=16", "category": "kitchen" },
+  { "id": "17", "name": "Cutlery Set", "description": "Stainless steel cutlery set for 4 people.", "price": 70, "image": "https://picsum.photos/300/300?random=17", "category": "kitchen" },
+  { "id": "18", "name": "Cooking Pan", "description": "Non-stick pan for easy cooking.", "price": 65, "image": "https://picsum.photos/300/300?random=18", "category": "kitchen" },
+  { "id": "19", "name": "Wooden Cutting Board", "description": "Natural wooden board for food preparation.", "price": 30, "image": "https://picsum.photos/300/300?random=19", "category": "kitchen" },
+  { "id": "20", "name": "Kitchen Storage Jars", "description": "Glass jars for storing spices and food.", "price": 45, "image": "https://picsum.photos/300/300?random=20", "category": "kitchen" },
+
+  { "id": "21", "name": "Armchair", "description": "Soft armchair with ergonomic design.", "price": 260, "image": "https://picsum.photos/300/300?random=21", "category": "furniture" },
+  { "id": "22", "name": "Dining Table", "description": "Large dining table for family gatherings.", "price": 520, "image": "https://picsum.photos/300/300?random=22", "category": "furniture" },
+  { "id": "23", "name": "Wardrobe Cabinet", "description": "Spacious wardrobe with modern design.", "price": 680, "image": "https://picsum.photos/300/300?random=23", "category": "furniture" },
+  { "id": "24", "name": "Ceiling Lamp", "description": "Bright ceiling lamp for living rooms.", "price": 110, "image": "https://picsum.photos/300/300?random=24", "category": "lamps" },
+  { "id": "25", "name": "Night Lamp", "description": "Soft night lamp for bedroom lighting.", "price": 50, "image": "https://picsum.photos/300/300?random=25", "category": "lamps" },
+
+  { "id": "26", "name": "Decorative Clock", "description": "Wall clock with minimalist design.", "price": 90, "image": "https://picsum.photos/300/300?random=26", "category": "decor" },
+  { "id": "27", "name": "Throw Pillow", "description": "Comfortable pillow for sofa or bed.", "price": 35, "image": "https://picsum.photos/300/300?random=27", "category": "decor" },
+  { "id": "28", "name": "Kitchen Knife Set", "description": "Sharp knives set for professional cooking.", "price": 120, "image": "https://picsum.photos/300/300?random=28", "category": "kitchen" },
+  { "id": "29", "name": "Electric Kettle", "description": "Fast-boiling electric kettle.", "price": 85, "image": "https://picsum.photos/300/300?random=29", "category": "kitchen" },
+  { "id": "30", "name": "Dish Drying Rack", "description": "Compact rack for drying dishes.", "price": 40, "image": "https://picsum.photos/300/300?random=30", "category": "kitchen" },
+
+  { "id": "31", "name": "Wooden Bench", "description": "Simple wooden bench for hallway.", "price": 180, "image": "https://picsum.photos/300/300?random=31", "category": "furniture" },
+  { "id": "32", "name": "Accent Lamp", "description": "Decorative lamp for accent lighting.", "price": 95, "image": "https://picsum.photos/300/300?random=32", "category": "lamps" },
+  { "id": "33", "name": "Decorative Tray", "description": "Tray for organizing decor items.", "price": 45, "image": "https://picsum.photos/300/300?random=33", "category": "decor" },
+  { "id": "34", "name": "Spice Organizer", "description": "Organizer for kitchen spices.", "price": 28, "image": "https://picsum.photos/300/300?random=34", "category": "kitchen" },
+  { "id": "35", "name": "Serving Bowl", "description": "Large bowl for serving salads.", "price": 32, "image": "https://picsum.photos/300/300?random=35", "category": "kitchen" },
+
+  { "id": "36", "name": "TV Stand", "description": "Modern TV stand with storage.", "price": 340, "image": "https://picsum.photos/300/300?random=36", "category": "furniture" },
+  { "id": "37", "name": "Reading Lamp", "description": "Focused lamp for reading areas.", "price": 70, "image": "https://picsum.photos/300/300?random=37", "category": "lamps" },
+  { "id": "38", "name": "Decorative Figurine", "description": "Small figurine for interior decoration.", "price": 55, "image": "https://picsum.photos/300/300?random=38", "category": "decor" },
+  { "id": "39", "name": "Kitchen Towels Set", "description": "Soft and absorbent kitchen towels.", "price": 22, "image": "https://picsum.photos/300/300?random=39", "category": "kitchen" },
+  { "id": "40", "name": "Bread Box", "description": "Box for storing fresh bread.", "price": 38, "image": "https://picsum.photos/300/300?random=40", "category": "kitchen" },
+
+  { "id": "41", "name": "Side Table", "description": "Compact side table for small spaces.", "price": 160, "image": "https://picsum.photos/300/300?random=41", "category": "furniture" },
+  { "id": "42", "name": "LED Strip Light", "description": "Flexible LED strip for ambient lighting.", "price": 65, "image": "https://picsum.photos/300/300?random=42", "category": "lamps" },
+  { "id": "43", "name": "Wall Shelf", "description": "Floating wall shelf for decor.", "price": 120, "image": "https://picsum.photos/300/300?random=43", "category": "decor" },
+  { "id": "44", "name": "Measuring Cups Set", "description": "Accurate measuring cups for cooking.", "price": 26, "image": "https://picsum.photos/300/300?random=44", "category": "kitchen" },
+  { "id": "45", "name": "Kitchen Utensil Holder", "description": "Holder for kitchen utensils.", "price": 30, "image": "https://picsum.photos/300/300?random=45", "category": "kitchen" },
+
+  { "id": "46", "name": "Storage Cabinet", "description": "Multi-purpose storage cabinet.", "price": 420, "image": "https://picsum.photos/300/300?random=46", "category": "furniture" },
+  { "id": "47", "name": "Hanging Lamp", "description": "Stylish hanging lamp for dining area.", "price": 175, "image": "https://picsum.photos/300/300?random=47", "category": "lamps" },
+  { "id": "48", "name": "Decorative Wall Hooks", "description": "Wall hooks for keys and accessories.", "price": 34, "image": "https://picsum.photos/300/300?random=48", "category": "decor" },
+  { "id": "49", "name": "Baking Tray", "description": "Durable tray for baking.", "price": 28, "image": "https://picsum.photos/300/300?random=49", "category": "kitchen" },
+  { "id": "50", "name": "Kitchen Scale", "description": "Digital kitchen scale for precise measurements.", "price": 48, "image": "https://picsum.photos/300/300?random=50", "category": "kitchen" }
+]
