@@ -1,17 +1,31 @@
-import { useState } from "react";
+import { useState} from "react";
 import { useFetch } from "../hooks/useFetch";
 import type { ProductInterface } from "../types/product.intarface";
-import { API_ITEMS_PER_PAGE_LIMIT, createUrl } from "../utils/mockapi";
+import { createUrl } from "../utils/mockapi";
 import Product from "../components/Product";
 import AddProductButton from "../components/AddProductButton";
 import ProductsFilter from "../components/ProductsFilter";
+import Pagination from "../components/Pagination";
+import usePagination from "../hooks/usePagination";
+import useProductsFilters from "../hooks/useProductsFilters";
 
 const AdminProducts = () => {
-    const [page, setPage] = useState(1);
     const [name, setName] = useState("");
     const [sort, setSort] = useState("");
     const [order, setOrder] = useState("asc");
     const [reloadTrigger, setReloadTrigger] = useState<string | null>(null);
+
+    const {
+        page,
+        setPage,
+        totalPages,
+        resetPage,
+    } = usePagination({
+        name,
+        sort,
+        order,
+        reloadTrigger,
+    });
 
     const {
         data: products,
@@ -23,17 +37,28 @@ const AdminProducts = () => {
         reloadTrigger
     );
 
+    const { handleSetName, handleSetSort, handleSetOrder } = useProductsFilters(
+        {
+            setName,
+            setSort,
+            setOrder,
+            resetPage,
+        }
+    );
+
+
+
     return (
         <div>
             <h1>Admin: Products</h1>
 
             <ProductsFilter
                 name={name}
-                setName={setName}
+                setName={handleSetName}
                 sort={sort}
-                setSort={setSort}
+                setSort={handleSetSort}
                 order={order}
-                setOrder={setOrder}
+                setOrder={handleSetOrder}
             />
 
             {isLoading && <h2 className="loading">Loading products...</h2>}
@@ -44,24 +69,11 @@ const AdminProducts = () => {
                     <div className="buttons-group">
                         <AddProductButton />
 
-                        <div className="pagination">
-                            <button
-                                className="pagination__btn"
-                                disabled={page === 1}
-                                onClick={() => setPage((prev) => prev - 1)}
-                            >
-                                Previous
-                            </button>
-                            <button
-                                className="pagination__btn"
-                                disabled={
-                                    products.length < API_ITEMS_PER_PAGE_LIMIT
-                                }
-                                onClick={() => setPage((prev) => prev + 1)}
-                            >
-                                Next
-                            </button>
-                        </div>
+                        <Pagination
+                            page={page}
+                            totalPages={totalPages}
+                            onPageChange={setPage}
+                        />
                     </div>
 
                     <ul className="products-list">
@@ -74,6 +86,12 @@ const AdminProducts = () => {
                             />
                         ))}
                     </ul>
+
+                    {products.length === 0 && (
+                        <p className="products-empty">
+                            No products found for this search
+                        </p>
+                    )}
                 </div>
             )}
         </div>

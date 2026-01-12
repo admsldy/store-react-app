@@ -23,7 +23,11 @@ const ProductsFilter = ({
     setOrder,
 }: ProductsFilterProps) => {
     const [inputValue, setInputValue] = useState(name);
-    const debouncedSetNameRef = useRef(debounce(setName, 1000));
+    const debouncedSetNameRef = useRef(
+        debounce((value: string) => {
+            setName(value);
+        }, 400)
+    );
 
 
     useEffect(() => {
@@ -43,8 +47,12 @@ const ProductsFilter = ({
                 id="filter"
                 value={inputValue}
                 onChange={(e) => {
-                    setInputValue(e.target.value);
-                    debouncedSetNameRef.current(e.target.value);
+                    const value = e.target.value;
+                    setInputValue(value);
+
+                    if (value.length === 0 || value.length >= 3) {
+                        debouncedSetNameRef.current(value);
+                    }
                 }}
                 placeholder="Filter products by name..."
             />
